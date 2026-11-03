@@ -13,17 +13,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Submit URLs to IndexNow
+      - name: Generate URL list and Submit to IndexNow
         run: |
+          # 1. 自动寻找当前仓库下的所有 .md 文件，并转换成 casinoplus-guides 的线上网址
+          URLS=$(find . -name "*.md" | sed 's|^\./|https://gaming-hub-nexus.github.io/casinoplus-guides/|' | jq -R -s -c 'split("\n")[:-1]')
+          
+          echo "Submitting the following URLs:"
+          echo $URLS
+
+          # 2. 构造 JSON 并使用 curl 自动提交给 IndexNow
           curl -X POST "https://api.indexnow.org/indexnow" \
                -H "Content-Type: application/json; charset=utf-8" \
-               -d '{
-                 "host": "gaming-hub-nexus.github.io",
-                 "key": "a1b2c3d4e5f67890abcdef1234567890",
-                 "keyLocation": "https://gaming-hub-nexus.github.io/casinoplus-guides/a1b2c3d4e5f67890abcdef1234567890.txt",
-                 "urlList": [
-                   "https://gaming-hub-nexus.github.io/casinoplus-guides/1.md",
-                   "https://gaming-hub-nexus.github.io/casinoplus-guides/crazy-fishing-games-gameplay-modes.md",
-                   "https://gaming-hub-nexus.github.io/casinoplus-guides/fishing-fun-online-game-features.md"
-                 ]
-               }'
+               -d "{
+                 \"host\": \"gaming-hub-nexus.github.io\",
+                 \"key\": \"123456\",
+                 \"keyLocation\": \"https://gaming-hub-nexus.github.io/casinoplus-guides/123456.txt\",
+                 \"urlList\": $URLS
+               }"
