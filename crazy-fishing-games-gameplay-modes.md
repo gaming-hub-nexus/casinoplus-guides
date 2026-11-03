@@ -1,14 +1,13 @@
-Crazy Fishing Games: Comparing Gameplay Modes, Targets and Special Features
-
+**Crazy Fishing Games: Comparing Gameplay Modes, Targets and Special Features
 Have you ever opened an online fishing game and found yourself watching several fish move across the screen, wondering which one to focus on first? That is part of the fun of exploring this type of game. Some titles keep things simple, while others introduce different targets, special weapons, and effects that make every round look a little different.
 
 What makes crazy fishing games interesting is not just the colourful graphics or fast-moving action. It is how each game puts its features together. The controls, target movement, and available mechanics can create quite different experiences, even when two games appear similar at first.
 
 For players in the Philippines who are curious about online fishing games, knowing these differences can make it easier to choose a style that feels comfortable. Let's take a closer look at common gameplay modes, the types of targets you may encounter, and the special features worth understanding before you start.
 
-Table of Contents
+## Table of Contents
 
-What Makes Fishing Games Different?
+## 1. What Makes Fishing Games Different?
 
 Comparing Common Gameplay Modes
 
@@ -46,7 +45,7 @@ If you want to explore the category further, you can visit the Casino Plus Fishi
 
 Not every fishing game follows the same format. Although the exact mechanics depend on the individual title, several common gameplay styles can help explain what players may encounter.
 
-Standard Aiming and Shooting
+### Standard Aiming and Shooting
 
 This is one of the easiest styles to understand. Players select a target, aim using the available controls, and use the game's shooting function.
 
