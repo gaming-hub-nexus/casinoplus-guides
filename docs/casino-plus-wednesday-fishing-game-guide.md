@@ -126,4 +126,4 @@ Whether you are checking in for **Wednesday** platform updates or simply looking
 
 1. **[Play Fishing Online: A Complete Guide to Game Access and Player Experience](https://gaming-hub-nexus.github.io/casinoplus-guides/play-fishing-online-guide.html)** – A foundational walkthrough covering browser compatibility, lobby tiers, and basic turret mechanics.
 2. **[Casino Plus Fishing Bankroll Guide: Smart Session Planning](https://gaming-hub-nexus.github.io/casinoplus-guides/casino-plus-fishing-bankroll-guide.html)** – Practical advice on managing shot values and setting realistic entertainment limits.
-3. **[Understanding Fish Categories and Multipliers in Online Fishing Games](
+3. **[Understanding Fish Categories and Multipliers in Online Fishing Games](https://gaming-hub-nexus.github.io/casinoplus-guides/understanding-fish-categories.html)** – A closer look at small schooling fish, mid-tier marine targets, and special boss encounters.
